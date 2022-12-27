@@ -1,0 +1,35 @@
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      port: 27017
+      username: root
+      password: shakee2001
+      host: localhost
+  flyway:
+    baseline-on-migrate: true
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/solva
+    username: root
+    password: shakee2001
+twelve:
+  data:
+    api: "c86562cc65ad4e029dc46a40585de951"
+    symbol: "USD/RUB"
+
+
+springdoc:
+  version: '@springdoc.version@'
+  swagger-ui:
+    use-root-path: true
+
+
+
+
+
+
