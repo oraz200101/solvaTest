@@ -59,7 +59,7 @@ public class TransactionServiceImpl implements TransactionService {
 
     @Override
     public Page<Transaction> getAllTransactions(Pageable pageable,int pageNumber) {
-        return transactionRepository.findAll(pageable);
+        return transactionRepository.findAll(pageable.withPage(pageNumber));
     }
 
     @Override

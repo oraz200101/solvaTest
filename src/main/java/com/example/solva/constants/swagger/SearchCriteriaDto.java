@@ -13,7 +13,7 @@ public class SearchCriteriaDto {
 
 
     public static final String FIELD_KEY_FOR_SORT_DESCRIPTION="Наименование фильтруемого поля обьекта для сортировки";
-    public static final String FIELD_VALUE_FOR_SORT_EXAMPLE = "date_time";
+    public static final String FIELD_VALUE_FOR_SORT_EXAMPLE = "dateTime";
     public static final String FIELD_DIRECTION_FOR_SORT_DESCRIPTION="значение сортировки";
     public static final String FIELD_DIRECTION_FOR_SORT_EXAMPLE="DESC";
 
