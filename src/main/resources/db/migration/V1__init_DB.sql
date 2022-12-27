@@ -8,7 +8,7 @@ create table transaction
     currency_short_name varchar(255),
     expense_category    varchar(255),
     limit_money_id      bigint not null,
-    date_tame           datetime (6),
+    date_time           datetime (6),
     sum                 float(32, 2
 ) ,
     primary key (id)
